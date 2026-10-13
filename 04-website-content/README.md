@@ -1,32 +1,34 @@
-# 04-website-content
+# Website Content
 
-**CRM path:** `/content-solutions/website-content`
+**CRM page path:** `/content-solutions/website-content`  
+**CRM page id (reference only):** `219`  
+**Original zip file:** see master README
 
-Paste **10 Custom HTML blocks**, one file each, in this order:
+## Before you paste anything
+In the CRM page editor for `/content-solutions/website-content`:
+1. Use **one** section that holds all Custom HTML blocks.
+2. Set that section to:
+   - **Padding top:** None
+   - **Padding bottom:** None
+   - **Container / width:** Full (not App container)
+3. Hide the site’s global header/footer for this page if your theme has that toggle (these HTML blocks include their own nav + footer).
+4. Delete old Custom HTML blocks on this page first (or clear their contents) so you are not stacking duplicates.
 
-| # | File | What it is |
-|---:|------|------------|
-| 1 | `01-css-base.html` | BASE CSS |
-| 2 | `02a-css-brand-part1.html` | BRAND CSS part 1 |
-| 3 | `02b-css-brand-part2.html` | BRAND CSS part 2 |
-| 4 | `03a-css-nav-mobile-part1.html` | NAV/MOBILE CSS part 1 |
-| 5 | `03b-css-nav-mobile-part2.html` | NAV/MOBILE CSS part 2 |
-| 6 | `03c-css-nav-mobile-part3.html` | NAV/MOBILE CSS part 3 |
-| 7 | `04-nav.html` | NAVIGATION HTML |
-| 8 | `05-body.html` | PAGE BODY HTML |
-| 9 | `06-form-scripts.html` | CRM FORM + BURGER JS |
-| 10 | `07-footer.html` | FOOTER HTML |
+## Paste order (one Custom HTML block per file)
+1. `00-crm-shell-fix.html`
+2. `01-css-base.html`
+3. `02a-css-brand-part1.html`
+4. `02b-css-brand-part2.html`
+5. `03a-css-nav-mobile-part1.html`
+6. `03b-css-nav-mobile-part2.html`
+7. `03c-css-nav-mobile-part3.html`
+8. `04-nav.html`
+9. `05-body.html`
+10. `06-form-scripts.html`
+11. `07-footer.html`
 
-### Checklist
-- [ ] Delete all existing Custom HTML on this page
-- [ ] Paste `01-css-base.html` into its own Custom HTML block
-- [ ] Paste `02a-css-brand-part1.html` into its own Custom HTML block
-- [ ] Paste `02b-css-brand-part2.html` into its own Custom HTML block
-- [ ] Paste `03a-css-nav-mobile-part1.html` into its own Custom HTML block
-- [ ] Paste `03b-css-nav-mobile-part2.html` into its own Custom HTML block
-- [ ] Paste `03c-css-nav-mobile-part3.html` into its own Custom HTML block
-- [ ] Paste `04-nav.html` into its own Custom HTML block
-- [ ] Paste `05-body.html` into its own Custom HTML block
-- [ ] Paste `06-form-scripts.html` into its own Custom HTML block
-- [ ] Paste `07-footer.html` into its own Custom HTML block
-- [ ] Save → Publish
+## Rules
+- Paste **one file = one block**, in the order above.
+- Do **not** combine files into one giant paste.
+- Every CSS file is a complete `<style>...</style>` — never cut mid-tag.
+- After all blocks are pasted: save, publish, deploy, then hard-refresh the live URL.

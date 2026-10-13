@@ -1,0 +1,24 @@
+<!--
+============================================================
+BLOCK 03c — NAV/MOBILE CSS part 3
+PAGE: /content-solutions/social-media
+FILE: 03c-css-nav-mobile-part3.html
+============================================================
+Header/footer chrome + mobile hamburger CSS. Complete style block(s).
+
+PASTE RULES:
+- Paste this ENTIRE file into its OWN Custom HTML block
+- Do NOT combine with other files
+- Do NOT cut this file further
+- Paste files in filename order (01, 02, 03...)
+============================================================
+-->
+<style id="t8-slim-mega">
+.nav-mega-simple{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;padding:22px 28px;max-width:920px;margin:0 auto}
+.nav-mega-simple .mn-simple{display:block;padding:12px 14px;border-radius:12px;color:#fff!important;font-weight:700;font-size:14px;background:rgba(255,255,255,.04)}
+.nav-mega-simple .mn-simple:hover{background:rgba(255,255,255,.09)}
+@media(max-width:900px){
+  .brand-page .nav-links.is-open .nav-mega{display:none!important}
+  .brand-page .burger{position:relative;z-index:100}
+}
+</style>

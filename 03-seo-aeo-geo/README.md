@@ -2,27 +2,31 @@
 
 **CRM path:** `/content-solutions/seo-aeo-geo`
 
-**Paste as 8 separate Custom HTML blocks, in filename order:**
+Paste **10 Custom HTML blocks**, one file each, in this order:
 
-| Order | File | What it is |
-|------:|------|------------|
+| # | File | What it is |
+|---:|------|------------|
 | 1 | `01-css-base.html` | BASE CSS |
-| 2 | `02a-css-brand-part1.html` | 02a-css-brand-part1 |
-| 3 | `02b-css-brand-part2.html` | 02b-css-brand-part2 |
-| 4 | `03-css-nav-mobile.html` | NAV + MOBILE CSS |
-| 5 | `04-nav.html` | NAVIGATION HTML |
-| 6 | `05-body.html` | PAGE BODY HTML |
-| 7 | `06-form-scripts.html` | CRM FORM + BURGER JS |
-| 8 | `07-footer.html` | FOOTER HTML |
+| 2 | `02a-css-brand-part1.html` | BRAND CSS part 1 |
+| 3 | `02b-css-brand-part2.html` | BRAND CSS part 2 |
+| 4 | `03a-css-nav-mobile-part1.html` | NAV/MOBILE CSS part 1 |
+| 5 | `03b-css-nav-mobile-part2.html` | NAV/MOBILE CSS part 2 |
+| 6 | `03c-css-nav-mobile-part3.html` | NAV/MOBILE CSS part 3 |
+| 7 | `04-nav.html` | NAVIGATION HTML |
+| 8 | `05-body.html` | PAGE BODY HTML |
+| 9 | `06-form-scripts.html` | CRM FORM + BURGER JS |
+| 10 | `07-footer.html` | FOOTER HTML |
 
-### Quick checklist
-- [ ] Deleted old HTML blocks on this page
-- [ ] Pasted `01-css-base.html` into its own Custom HTML block
-- [ ] Pasted `02a-css-brand-part1.html` into its own Custom HTML block
-- [ ] Pasted `02b-css-brand-part2.html` into its own Custom HTML block
-- [ ] Pasted `03-css-nav-mobile.html` into its own Custom HTML block
-- [ ] Pasted `04-nav.html` into its own Custom HTML block
-- [ ] Pasted `05-body.html` into its own Custom HTML block
-- [ ] Pasted `06-form-scripts.html` into its own Custom HTML block
-- [ ] Pasted `07-footer.html` into its own Custom HTML block
-- [ ] Saved + Published
+### Checklist
+- [ ] Delete all existing Custom HTML on this page
+- [ ] Paste `01-css-base.html` into its own Custom HTML block
+- [ ] Paste `02a-css-brand-part1.html` into its own Custom HTML block
+- [ ] Paste `02b-css-brand-part2.html` into its own Custom HTML block
+- [ ] Paste `03a-css-nav-mobile-part1.html` into its own Custom HTML block
+- [ ] Paste `03b-css-nav-mobile-part2.html` into its own Custom HTML block
+- [ ] Paste `03c-css-nav-mobile-part3.html` into its own Custom HTML block
+- [ ] Paste `04-nav.html` into its own Custom HTML block
+- [ ] Paste `05-body.html` into its own Custom HTML block
+- [ ] Paste `06-form-scripts.html` into its own Custom HTML block
+- [ ] Paste `07-footer.html` into its own Custom HTML block
+- [ ] Save → Publish

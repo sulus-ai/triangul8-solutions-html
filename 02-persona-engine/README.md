@@ -2,31 +2,37 @@
 
 **CRM path:** `/content-solutions/persona-engine`
 
-**Paste as 10 separate Custom HTML blocks, in filename order:**
+Paste **13 Custom HTML blocks**, one file each, in this order:
 
-| Order | File | What it is |
-|------:|------|------------|
+| # | File | What it is |
+|---:|------|------------|
 | 1 | `01-css-base.html` | BASE CSS |
-| 2 | `02a-css-brand-part1.html` | 02a-css-brand-part1 |
-| 3 | `02b-css-brand-part2.html` | 02b-css-brand-part2 |
-| 4 | `03-css-nav-mobile.html` | NAV + MOBILE CSS |
-| 5 | `04-nav.html` | NAVIGATION HTML |
-| 6 | `05a-body-part1.html` | PAGE BODY HTML — part 1 |
-| 7 | `05b-body-part2.html` | PAGE BODY HTML — part 2 |
-| 8 | `05c-body-part3.html` | PAGE BODY HTML — part 3 |
-| 9 | `06-form-scripts.html` | CRM FORM + BURGER JS |
-| 10 | `07-footer.html` | FOOTER HTML |
+| 2 | `02a-css-brand-part1.html` | BRAND CSS part 1 |
+| 3 | `02b-css-brand-part2.html` | BRAND CSS part 2 |
+| 4 | `03a-css-nav-mobile-part1.html` | NAV/MOBILE CSS part 1 |
+| 5 | `03b-css-nav-mobile-part2.html` | NAV/MOBILE CSS part 2 |
+| 6 | `03c-css-nav-mobile-part3.html` | NAV/MOBILE CSS part 3 |
+| 7 | `04-nav.html` | NAVIGATION HTML |
+| 8 | `05a-body-part1.html` | PAGE BODY part 1 |
+| 9 | `05b-body-part2.html` | PAGE BODY part 2 |
+| 10 | `05c-body-part3.html` | PAGE BODY part 3 |
+| 11 | `05d-body-part4.html` | PAGE BODY part 4 |
+| 12 | `06-form-scripts.html` | CRM FORM + BURGER JS |
+| 13 | `07-footer.html` | FOOTER HTML |
 
-### Quick checklist
-- [ ] Deleted old HTML blocks on this page
-- [ ] Pasted `01-css-base.html` into its own Custom HTML block
-- [ ] Pasted `02a-css-brand-part1.html` into its own Custom HTML block
-- [ ] Pasted `02b-css-brand-part2.html` into its own Custom HTML block
-- [ ] Pasted `03-css-nav-mobile.html` into its own Custom HTML block
-- [ ] Pasted `04-nav.html` into its own Custom HTML block
-- [ ] Pasted `05a-body-part1.html` into its own Custom HTML block
-- [ ] Pasted `05b-body-part2.html` into its own Custom HTML block
-- [ ] Pasted `05c-body-part3.html` into its own Custom HTML block
-- [ ] Pasted `06-form-scripts.html` into its own Custom HTML block
-- [ ] Pasted `07-footer.html` into its own Custom HTML block
-- [ ] Saved + Published
+### Checklist
+- [ ] Delete all existing Custom HTML on this page
+- [ ] Paste `01-css-base.html` into its own Custom HTML block
+- [ ] Paste `02a-css-brand-part1.html` into its own Custom HTML block
+- [ ] Paste `02b-css-brand-part2.html` into its own Custom HTML block
+- [ ] Paste `03a-css-nav-mobile-part1.html` into its own Custom HTML block
+- [ ] Paste `03b-css-nav-mobile-part2.html` into its own Custom HTML block
+- [ ] Paste `03c-css-nav-mobile-part3.html` into its own Custom HTML block
+- [ ] Paste `04-nav.html` into its own Custom HTML block
+- [ ] Paste `05a-body-part1.html` into its own Custom HTML block
+- [ ] Paste `05b-body-part2.html` into its own Custom HTML block
+- [ ] Paste `05c-body-part3.html` into its own Custom HTML block
+- [ ] Paste `05d-body-part4.html` into its own Custom HTML block
+- [ ] Paste `06-form-scripts.html` into its own Custom HTML block
+- [ ] Paste `07-footer.html` into its own Custom HTML block
+- [ ] Save → Publish
